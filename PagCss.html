@@ -73,8 +73,65 @@
 							  Nos últimos anos, o CSS continuou evoluindo com a introdução de novas ferramentas e funcionalidades, como Flexbox e Grid Layout, que facilitaram ainda mais a criação de layouts complexos e responsivos. Recursos como variáveis CSS e suporte a temas escuros também ajudaram a modernizar a web. O futuro do CSS promete mais avanços, com a introdução de tecnologias como o CSS Houdini, que permitirá maior controle sobre o comportamento visual das páginas. O CSS se tornou uma ferramenta essencial para o desenvolvimento web, permitindo criar experiências visuais ricas e acessíveis para todos os tipos de usuários e dispositivos.
 							</p>
 
-								
+							<h1 class="major" style="text-align: center;">COMO O CSS FUNCIONA</h1>
+								<p>
+								  O CSS (Cascading Style Sheets) funciona definindo regras de estilo que controlam a aparência de elementos HTML em uma página web. Ele atua como uma camada separada, que especifica como o conteúdo estrutural (HTML) será exibido visualmente no navegador.
+								</p>
+								<h3>1. Seleção de Elementos</h3>
+								<p>
+								  O CSS começa escolhendo os elementos HTML que devem ser estilizados, usando seletores como tags, classes e IDs. Por exemplo:
+								</p>
+								<pre><code style="color: aliceblue;">p{
+ color: red; 
+}</code></pre>
+								<p>
+								  Isso muda a cor de todo o texto em elementos &lt;p&gt; para vermelho.
+								</p>
+							  
+								<h3>2. Declarações de Estilo</h3>
+								<p>
+								  As declarações CSS definem propriedades e valores para os elementos. Por exemplo:
+								</p>
+<pre><code style="color: aliceblue;">p{
+ font-size: 18px;
+}</code></pre>
+								<p>
+								  Isso define o tamanho da fonte em 18 pixels para todos os parágrafos.
+								</p>
+							  
+								<h3>3. Cascata e Herança</h3>
+								<p>
+								  O CSS usa a cascata para decidir quais regras aplicar quando múltiplas regras se sobrepõem. A especificidade determina qual regra tem mais prioridade. Algumas propriedades, como cores e fontes, são herdadas automaticamente pelos elementos filhos.
+								</p>
+							  
+								<h3>4. Media Queries</h3>
+								<p>
+								  Media queries permitem criar estilos responsivos que mudam com base no tamanho da tela:
+								</p>
 
+								<pre><code style="color: aliceblue;">
+@media (max-width: 768px){
+   body { 
+   font-size: 14px;
+   } 
+} </code></pre>
+							  
+								<h3>5. Box Model</h3>
+								<p>
+								  O CSS usa o modelo de caixa para calcular o espaço ocupado pelos elementos, incluindo conteúdo, padding, bordas e margens.
+								</p>
+							  
+								<h3>6. Pseudo-classes e Pseudo-elementos</h3>
+								<p>
+								  Pseudo-classes aplicam estilos com base em estados, como hover:
+								</p>
+								<pre><code style="color: aliceblue;"> a:hover {
+  color: blue;
+ }</code></pre>
+								<p>
+								  Pseudo-elementos, como ::before e ::after, permitem adicionar conteúdo extra antes ou depois de um elemento.
+								</p>
+							  
 						</div>
 						
 					</section>
