@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+		<title>JavaScript : ELEMENTOS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">WebCode</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="PagJS.html">Hitória</a></li>
+						<li><a href="elements.html"  class="active">Elementos</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper" style="width: 80%; margin: 0 auto;">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Principais Elementos do JavaScript</h1>
+                            <div id="principais-tags-css">
+							
+								<h2>1. Variáveis</h2>
+								<p>
+								  Usadas para armazenar dados. Existem três palavras-chave para demonstrar variáveis:
+								</p>
+								<ul>
+								  <li><strong>let:</strong> Variável que pode ser reatribuída.</li>
+								  <li><strong>const:</strong> Variável constante (não pode ser reatribuída).
+								  </li>
+								  <li><strong>var:</strong> Forma antiga de declaração de variáveis ​​(menos usadas hoje).</li> <br>
+
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>let nome = "João"; <br>const idade = 25; <br>var cidade = "São Paulo";</code></pre>
+								</ul>
+
+								<h2>2. Tipos de Dados</h2>
+								<p>
+									Os principais tipos de dados em JavaScript são:
+								</p>
+								<ul>
+								  <li><strong>String:</strong> Texto ("Olá mundo!")</li>
+								  <li><strong>Número:</strong> Números(45, 3.14)
+								  </li>
+								  <li><strong>Booleano:</strong> Verdadeiro ou falso (true, false).</li>
+								  <li><strong>Array:</strong> Lista de valores ([1,2,3])</li>
+								  <li><strong>Objetivo:</strong> Coleção de pares chave-valor ({nome: "João", idade: 20})</li>
+								  <li><strong>Nulo:</strong> Valor nulo intencional.</li>
+								  <li><strong>Indefinido:</strong> Valor indefinido.</li>
+								  <br>
+
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>let texto = "Hello";<br>let numero = 42; <br>let booleano = true; <br>let lista = [1, 2, 3]; <br>let objeto = { nome: "Ana", idade: 22 };</code></pre>
+								</ul>
+								
+								<h2>3. Operadores</h2>
+								<ul>
+								  <li><strong>Aritiméticos:</strong> +, -, /, %</li>
+								  <li><strong>Comparação:</strong> ==, ===, !=, >, <, >=, <=,
+								  </li>
+								  <li><strong>Lógicos:</strong> &&(e), ||(ou), !(não).</li>
+								  <br>
+
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>let soma = 5 + 3;<br>let maior = 10 > 5;<br>let ambosVerdadeiros = (true && false);</code></pre>
+								</ul>
+
+								<h2>4. Funções</h2>
+								<p>
+									Blocos de código que podem ser reutilizados. Declaradas como functionou como arrow functions ( =>).
+								</p>
+								<ul>
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>function somar(a, b) {<br>  return a + b;<br>} <br><br>const subtrair = (a, b) => a - b;</code></pre>
+								</ul>
+
+								<h2>5.  Estruturas de Controle</h2>
+								<ul>
+								  <li><strong>Condicionais:</strong>  ( if, else, else if):
+								  </li><br>
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>let idade = 18;<br> if (idade >= 18) {<br>  console.log("Maior de idade"); <br> } else { <br>  console.log("Menor de idade"); <br> }</code></pre>
+								  <li><strong>Laços de Repetição:</strong>  ( for, while, do-while):
+								  </li><br>
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>for (let i = 0; i < 5; i++) {<br> console.log(i); {<br> }</code></pre>
+								</ul>
+								
+								<h2>6. Eventos</h2>
+								<ul>
+								  <p>Interação com a página HTML. Exemplo de evento click</p>
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>document.getElementById("meuBotao").addEventListener("click", function(){<br>  alert("Botão clicado!");<br>   console.log("Maior de idade"); <br>}); <br></code></pre>
+								</ul>
+							    
+								<h2>7. Manipulação de DOM</h2>
+								<ul>
+								  <p>JavaScript pode manipular elementos HTML:</p>
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>document.getElementById("titulo").innerText = "Novo Título";<br>document.querySelector(".minhaClasse").style.color = "red";</code></pre>
+								</ul>
+
+								<h2>8. Objetos e Classes</h2>
+								<ul>
+								  <p>Objetos são coleções de dados, e classes permitem criar objetos múltiplos com a mesma estrutura.</p>
+								  Exemplo de objeto: 
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>let pessoa { <br>  nome: "Maria", <br>  idade: 30, <br>  falar: function() { <br>   console.log("Olá, meu nome é " + this.nome); <br> } <br>};</code></pre>
+								  Exemplo de classe: 
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>class Animal { <br> construtor(nome) { <br>  this.nome = nome;<br> { <br> fazerSom() { <br>    console.log("Som de animal");<br> } <br>};</code></pre>
+								</ul>
+
+								<h2>9. Promessas e Async/Await</h2>
+								<p>
+									Usado para trabalhar com operações assíncronas:
+								</p>
+								<ul>
+								  <li><strong>Promise:</strong> Resolver ou rejeitar uma operação.</li>
+								  <li><strong>async/await:</strong> Facilita a leitura do código assíncrono. </li>
+								  <br>
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code>const prom = new Promise((resolve, reject) => { <br>   setTimeout(() => resolve("Sucesso!"), 1000); <br>}); <br><br>prom.then(resultado => console.log(resultado)); <br><br>async function carregarDados() { <br>   const resultado = await prom; <br>   console.log(resultado); <br>}</code></pre>
+								</ul>
+								
+								<h2>10. Módulos</h2>
+								<ul>
+								  <p>Permitem dividir o código em partes reutilizáveis. Exemplo de exportação e importação:</p>
+								  <pre style="border-radius: 20px; color: black; background-color: rgb(255, 255, 255);"><code> <i>//arquivo.js</i> <br>export function saudar(nome)  <br>  console.log("Olá, " + nome); <br>} <br><br><i>//main.js</i><br>import { saudar } from './arquivo.js'; <br>saudar("Pedro");</code></pre>
+								</ul>
+
+								<h3>Esses são os principais elementos do JavaScript que servem como base para o desenvolvimento de qualquer aplicação web!</h3>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
