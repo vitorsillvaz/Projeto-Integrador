@@ -4,3 +4,5 @@ Tecnologias Utilizadas: A estrutura do site é construída utilizando as própri
   HTML: Utilizado para definir a estrutura e o conteúdo das páginas, organizando elementos como títulos, parágrafos, imagens e links.
   CSS: Empregado para estilizar e aprimorar a aparência visual do site, incluindo definição de núcleos, fontes, layouts e responsividade para diferentes dispositivos.
   JavaScript: Incorporado para adicionar interatividade e dinamismo às páginas, possibilitando funcionalidades como animações e manipulação de eventos do usuário.
+
+INTEGRANTES: ANA LAURA ATALIBA DA CUNHA(20221064010013), JOÃO VITOR DA SILVA(20221064010033) E KIMBERLLY ELOIZE AUGUSTO LIMA(20221064010039)
